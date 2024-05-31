@@ -1,0 +1,14 @@
+{
+  "name": "curry-howard-ts",
+  "version": "1.0.0",
+  "description": "Exploring the Curry-Howard Correspondence and Types as Propositions in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Vanderkam",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
