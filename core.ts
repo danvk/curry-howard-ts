@@ -46,7 +46,13 @@ class OrRight<A, B> extends Or<A, B> {
   }
 }
 
-export type Neg<T> = (t: T) => false;
+/** This represents "false", but can't be constructed. */
+export class False {
+  #brand = false;
+  private constructor() {}
+}
+
+export type Neg<T> = (t: T) => False;
 
 export class Iff<A, B> {
   #mp: (a: A) => B;
